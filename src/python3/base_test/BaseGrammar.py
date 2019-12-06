@@ -4,6 +4,8 @@
 # 指定源文件的编码格式,python3中默认为UTF-8
 # -*- coding: UTF-8 -*-
 
+# 基础语法
+
 # 单行注释
 
 """
@@ -21,3 +23,7 @@
 import keyword
 
 print(keyword.kwlist)
+
+# 赋值
+a = 1
+b, c = 2, 3
