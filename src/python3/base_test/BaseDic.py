@@ -14,3 +14,5 @@ print(varTypeDic)
 
 varTypeDic = dict(ek0=0, ek1="1", ek2="2")
 print(varTypeDic)
+varTypeDic.__contains__("none")
+print(varTypeDic.__contains__("none"))
